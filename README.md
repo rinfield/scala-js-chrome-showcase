@@ -1,0 +1,1 @@
+# scala-js-chrome-example-extension
