@@ -1,0 +1,12 @@
+{
+  "manifest_version": 2,
+  "name": "scala-js-chrome-showcase",
+  "version": "0.0.1",
+  "background": {
+    "scripts": [
+      "main.js",
+      "launcher.js"
+    ],
+    "persistent": false
+  }
+}
