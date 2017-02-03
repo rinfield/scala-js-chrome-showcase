@@ -1,5 +1,7 @@
 language: scala
 script:
+  - set -e
+  - sbt scalafmtTest
   - sbt chromeUnpackedFast
   - sbt chromeUnpackedOpt
   - sbt chromePackage
